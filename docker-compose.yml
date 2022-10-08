@@ -3,9 +3,15 @@ services:
   dst-server:
      image: jamesits/dst-server:latest
      restart: "on-failure:5"
-     ports:
-        - "10999-11000:10999-11000/udp"
-        - "12346-12347:12346-12347/udp"
+   #   ports:
+   #      - "10999-11000:10999-11000/udp"
+   #      - "12346-12347:12346-12347/udp"
+   #      - "11000-11001:11000-11001/udp"
+   #      - "27018-27019:27018-27019/udp"
      volumes:
-        - ~/.klei/DoNotStarveTogether:/data
+        - ./data:/data
      stop_grace_period: 6m
+networks:
+  default:
+    external:
+      name: darkraise
