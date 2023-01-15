@@ -4,7 +4,7 @@ services:
     image: jamesits/dst-server:latest
     restart: "on-failure:5"
     environment:
-      - DST_CLUSTER_TOKEN=value
+      - DST_CLUSTER_TOKEN=pds-g^KU_OuuPEJ6u^WUaNUYKTGAX+X0JjeJI8BfQSwxjEWFMXrC8N1mGJS4E=
       - DST_CLUSTER_NAME=Xuxu
     ports:
       - "10999-11000:10999-11000/udp"
