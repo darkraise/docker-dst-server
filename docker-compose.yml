@@ -2,6 +2,7 @@ version: '3.5'
 services:
   dst-server:
     image: jamesits/dst-server:latest
+    container_name: dst-xuxu
     restart: "on-failure:5"
     environment:
       - DST_CLUSTER_TOKEN=pds-g^KU_OuuPEJ6u^WUaNUYKTGAX+X0JjeJI8BfQSwxjEWFMXrC8N1mGJS4E=
