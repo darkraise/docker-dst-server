@@ -1,21 +1,76 @@
 return {
   ["workshop-1185229307"]={
-    configuration_options={ damage=2, noepic=true, phase=true, range=20, timeout=10 },
+    configuration_options={
+      [""]="",
+      DAMAGE_NUMBERS=true,
+      DAMAGE_RESISTANCE=true,
+      FRAME_PHASES=true,
+      HORIZONTAL_OFFSET=0,
+      NOEPIC=false,
+      NONOEPIC=false,
+      WETNESS_METER=false 
+    },
     enabled=true 
   },
   ["workshop-1207269058"]={ configuration_options={  }, enabled=true },
+  ["workshop-1378549454"]={
+    configuration_options={
+      ["MemSpikeFix:"]=false,
+      MemSpikeFixmaster_override=true,
+      ["MemSpikeFixworkshop-1157690027"]="default",
+      ["MemSpikeFixworkshop-1185229307"]="default",
+      ["MemSpikeFixworkshop-1207269058"]="default",
+      ["MemSpikeFixworkshop-1430350339"]="default",
+      ["MemSpikeFixworkshop-1462979419"]="default",
+      ["MemSpikeFixworkshop-1488960043"]="default",
+      ["MemSpikeFixworkshop-1517822077"]="default",
+      ["MemSpikeFixworkshop-1529057966"]="default",
+      ["MemSpikeFixworkshop-1529942793"]="default",
+      ["MemSpikeFixworkshop-1682381560"]="default",
+      ["MemSpikeFixworkshop-1758335569"]="default",
+      ["MemSpikeFixworkshop-1951468597"]="default",
+      ["MemSpikeFixworkshop-2039123319"]="default",
+      ["MemSpikeFixworkshop-2078243581"]="default",
+      ["MemSpikeFixworkshop-2151452010"]="default",
+      ["MemSpikeFixworkshop-2347444919"]="default",
+      ["MemSpikeFixworkshop-2459569692"]="default",
+      ["MemSpikeFixworkshop-2459597464"]="default",
+      ["MemSpikeFixworkshop-2506886144"]="default",
+      ["MemSpikeFixworkshop-2812508046"]="default",
+      ["MemSpikeFixworkshop-2831613121"]="default",
+      ["MemSpikeFixworkshop-2847615413"]="default",
+      ["MemSpikeFixworkshop-2849308125"]="default",
+      ["MemSpikeFixworkshop-2878462413"]="default",
+      ["MemSpikeFixworkshop-2878463322"]="default",
+      ["MemSpikeFixworkshop-2901979304"]="default",
+      ["MemSpikeFixworkshop-345692228"]="default",
+      ["MemSpikeFixworkshop-351325790"]="default",
+      ["MemSpikeFixworkshop-376333686"]="default",
+      ["MemSpikeFixworkshop-378160973"]="default",
+      ["MemSpikeFixworkshop-439603968"]="default",
+      ["MemSpikeFixworkshop-604761020"]="default",
+      ["MemSpikeFixworkshop-619159773"]="default",
+      ["MemSpikeFixworkshop-728459184"]="default",
+      ["MemSpikeFixworkshop-758532836"]="default",
+      ["MemSpikeFixworkshop-785295023"]="default",
+      ["MemSpikeFixworkshop-788268084"]="default",
+      ["MemSpikeFixworkshop-836583293"]="default",
+      ["MemSpikeFixworkshop-907007729"]="default",
+      craftinghighlight=false 
+    },
+    enabled=true 
+  },
   ["workshop-1462979419"]={
     configuration_options={ backpackCategory="food", funMode="yes", keybind=103, maxLights=2 },
     enabled=true 
   },
-  ["workshop-1595631294"]={
+  ["workshop-1951468597"]={
     configuration_options={
-      BundleItems=false,
-      ChangeSkin=true,
-      Digornot=false,
-      DragonflyChest=false,
-      Icebox=false,
-      SaltBox=false 
+      CanSpawnSpore=true,
+      HouseHammered=true,
+      NewInteriors=true,
+      NewWalls=true,
+      Tardis=true 
     },
     enabled=true 
   },
@@ -23,68 +78,67 @@ return {
     configuration_options={ Blue=0, Display="target", Green=0, Projectile=true, Red=1, Type="hit" },
     enabled=true 
   },
-  ["workshop-2097358269"]={
+  ["workshop-2151452010"]={
     configuration_options={
-      collect_items_dist=8,
-      is_collect_lootdropper=1,
-      is_collect_open_close=1,
-      is_collect_periodicspawner=1,
-      is_collect_take=0,
-      is_show_anim=1,
-      minisign_dist=1.5 
+      dangerRestriction=3,
+      enableMap=true,
+      ghostTeleport=2,
+      hungerCostBase=2.5,
+      hungerCostMult=0.5,
+      sanityCostBase=0.65,
+      sanityCostMult=0 
     },
-    enabled=true 
-  },
-  ["workshop-2166704267"]={
-    configuration_options={ ENABLEBACKPACK=false, INVENTORYSIZE=45, MOREEQUIPSLOTS=true },
     enabled=true 
   },
   ["workshop-2347444919"]={
     configuration_options={ MediumTree=2, OldTree=0, ShortTree=1, TallTree=3 },
     enabled=true 
   },
-["workshop-2365583610"]={
-    configuration_options={
-      _BEEF_override=2,
-      _CHESS_override=1,
-      _DEVG_override=1,
-      _FIREH_override=1,
-      _HOUND_override=2,
-      _ICEH_override=1,
-      _INSANEPIG_override=2,
-      _LEIF_override=2,
-      _LO_override=1,
-      _MOON_override=1,
-      _PIGS_override=1,
-      _POI_override=1,
-      _PR_override=1,
-      _RABB_override=0,
-      _REEDS_override=1,
-      _SEAS_override=0,
-      _SPIDER_override=2,
-      _TALLB_override=2,
-      _TR_override=1 
-    },
-    enabled=true 
-  },
-  ["workshop-2458910393"]={ configuration_options={  }, enabled=true },
-  ["workshop-2458913586"]={ configuration_options={  }, enabled=true },
   ["workshop-2459569692"]={
-    configuration_options={ dark_duration=7200, picking_rate="fast", pickup_rate=0.25 },
-    enabled=true 
-  },
-  ["workshop-2459571773"]={
-    configuration_options={ Hunger_Cost=2, Ownership=false, Sanity_Cost=0.25 },
+    configuration_options={ dark_duration=14400, picking_rate="fast", pickup_rate=0.25 },
     enabled=true 
   },
   ["workshop-2459597464"]={ configuration_options={  }, enabled=true },
+  ["workshop-2506886144"]={
+    configuration_options={
+      Emergency_mode="1",
+      _spacer=false,
+      alwaysontikitorch=true,
+      campfire=true,
+      chiminea=false,
+      coldfire=true,
+      coldfirepit=true,
+      deluxe_firepit=true,
+      endo_firepit=true,
+      firepit=true,
+      firepit_obsidian=true,
+      flingomaticfuel=0.1,
+      flingomaticrange=2,
+      heat_star=true,
+      ice_star=true,
+      maxwelllight_p=true,
+      musha_oven=false,
+      nightlight=true,
+      obsidianfirepit=false,
+      pigtorch=true,
+      sea_chiminea=false,
+      tungsten_firepit=true 
+    },
+    enabled=true 
+  },
+  ["workshop-2812508046"]={
+    configuration_options={ ENABLEBACKPACK=true, INVENTORYSIZE=45, MOREEQUIPSLOTS=true },
+    enabled=true 
+  },
+  ["workshop-2878462413"]={ configuration_options={  }, enabled=true },
+  ["workshop-2878463322"]={ configuration_options={  }, enabled=true },
   ["workshop-378160973"]={
     configuration_options={
       ENABLEPINGS=true,
       FIREOPTIONS=3,
       OVERRIDEMODE=false,
       SHAREMINIMAPPROGRESS=true,
-      SHOWFIREICONS=false,
+      SHOWFIREICONS=true,
       SHOWPLAYERICONS=true,
       SHOWPLAYERSOPTIONS=3 
     },
@@ -94,25 +148,24 @@ return {
     configuration_options={
       RUOYINXIAN=false,
       SHENGDANSHI=false,
-      baoshibaolv=8,
+      baoshibaolv=4,
       blue_baoshi=2,
       er_shuoming=0,
-      green_baoshi=1,
-      huangjinbaolv=2,
-      marble_suipian=1,
-      orange_baoshi=1,
-      purple_baoshi=8,
+      green_baoshi=2,
+      huangjinbaolv=3,
+      marble_suipian=2,
+      orange_baoshi=2,
+      purple_baoshi=4,
       red_baoshi=2,
       shishengzhang=0,
       shitoubaolv=2,
-      thulecite_xiukuang=1,
-      wajuecishu=2,
-      yellow_baoshi=1,
+      thulecite_xiukuang=2,
+      wajuecishu=3,
+      yellow_baoshi=2,
       yi_shuoming=0 
     },
     enabled=true 
   },
-  ["workshop-619159773"]={ configuration_options={ invent=0, perishtime="0", thermal="no" }, enabled=true },
   ["workshop-728459184"]={
     configuration_options={
       INCREASEBACKPACKSIZES_BACKPACK=18,
@@ -123,57 +176,42 @@ return {
       largerchester=12,
       largerdragonflychest=24,
       largericebox=24,
-      largertreasurechest=16 
+      largertreasurechest=24 
     },
-    enabled=true 
-  },
-  ["workshop-866623002"]={
-    configuration_options={
-      _spacer=false,
-      alwaysontikitorch=false,
-      campfire=false,
-      chiminea=false,
-      coldfire=false,
-      coldfirepit=false,
-      deluxe_firepit=false,
-      endo_firepit=false,
-      firepit=false,
-      firepit_obsidian=false,
-      flingomaticfuel=0.1,
-      flingomaticrange=2,
-      heat_star=false,
-      ice_star=false,
-      maxwelllight_p=false,
-      musha_oven=false,
-      nightlight=false,
-      obsidianfirepit=false,
-      pigtorch=false,
-      sea_chiminea=false,
-      tungsten_firepit=false 
-    },
-    enabled=true 
-  },
-  ["workshop-907007729"]={
-    configuration_options={ AMOUNTBONUS=3, COOKTIME=1.1, FRESHBONUS=0.3, MININGREDIENTS=3, RECIPE="NORMAL" },
     enabled=true 
   },
   ["workshop-785295023"]={
     configuration_options={
       bossres=true,
       companion=true,
-      dist=8,
+      dist=5,
       healthmul=-1,
-      language="EN",
+      language="AUTO",
       minimapicon=false,
       ownership=0,
-      rebounddmg=5,
-      recipe="hard",
+      rebounddmg=0,
+      recipe="normal",
       recipe_door=true,
-      recipe_fence=false,
-      recipe_tool=false,
-      recipe_vanilla=true,
+      recipe_fence=true,
+      recipe_tool=true,
+      recipe_vanilla=false,
       recipe_wall=true 
     },
+    enabled=true 
+  },
+  ["workshop-788268084"]={
+    configuration_options={
+      EVERGREEN_CHOPS_NORMAL=10,
+      EVERGREEN_CHOPS_SMALL=5,
+      EVERGREEN_CHOPS_TALL=15,
+      ICE_MINE=3,
+      MARBLEPILLAR_MINE=10,
+      MARBLETREE_MINE=8 
+    },
+    enabled=true 
+  },
+  ["workshop-907007729"]={
+    configuration_options={ AMOUNTBONUS=3, COOKTIME=2, FRESHBONUS=0, MININGREDIENTS=4, RECIPE="HARDER" },
     enabled=true 
   } 
 }

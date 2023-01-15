@@ -5,7 +5,7 @@ services:
     restart: "on-failure:5"
     environment:
       - DST_CLUSTER_TOKEN=pds-g^KU_OuuPEJ6u^WUaNUYKTGAX+X0JjeJI8BfQSwxjEWFMXrC8N1mGJS4E=
-      - DST_CLUSTER_NAME=Xuxu
+      # - DST_CLUSTER_NAME=Xuxu
     ports:
       - "10999-11000:10999-11000/udp"
       - "12346-12347:12346-12347/udp"
@@ -14,8 +14,8 @@ services:
     #      - "11000-11001:11000-11001/udp"
     #      - "27018-27019:27018-27019/udp"
     volumes:
-      - ./data:/data
-      # -  ~/.klei/DoNotStarveTogether:/data
+      # - ./data:/data
+      -  ~/.klei/DoNotStarveTogether:/data
     stop_grace_period: 6m
 # networks:
 #   default:
