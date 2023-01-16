@@ -16,7 +16,8 @@ services:
     #      - "27018-27019:27018-27019/udp"
     volumes:
       # - ./data:/data
-      -  ~/.klei/DoNotStarveTogether:/data
+      # -  ~/.klei/DoNotStarveTogether:/data
+      -  ~/.klei:/data
     stop_grace_period: 6m
 # networks:
 #   default:
